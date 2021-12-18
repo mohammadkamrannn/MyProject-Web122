@@ -45,3 +45,34 @@ a, a:hover{
     color: #fff;
     text-decoration: none;
 }
+
+.owl-carousel .owl-dots{
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 20px;
+    right:0;
+    font-size: 2rem;
+    display: block;
+
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 20px;
+    left:0;
+    font-size: 2rem;
+    display: block;
+
+}
+
+.bg-contact{
+    background: url(../assets/images/mt-0239-home-parallax1.jpg) no-repeat center/ cover fixed;
+}
+
+input.bg-transparent-haber,
+textarea.bg-transparent-haber{
+    background-color: rgba(0, 0, 0, .4);
+}
