@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: BYekan;
     src: url(../assets/fonts/Yekan.ttf);
 }
@@ -83,4 +83,4 @@ a, a:hover{
 input.bg-transparent-haber,
 textarea.bg-transparent-haber{
     background-color: rgba(0, 0, 0, .4);
-} */
+}

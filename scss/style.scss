@@ -3,6 +3,12 @@
     font-family: BYekan;
     src: url(../assets/fonts/Yekan.ttf);
 }
+
+@font-face{
+    font-family: FontAwesome;
+    src: url(../assets/fonts/FontAwesome/fontawesome-webfont.ttf);
+}
+
 body{
     direction: rtl;
     font-family: 'BYekan';
@@ -90,5 +96,26 @@ a, a:hover{
 
 .bg-contact{
     background: url(../assets/images/mt-0239-home-parallax1.jpg) no-repeat center/ cover fixed;
+}
+
+.advice{
+    a{
+        i{
+            font-size: 1.8rem !important;
+            color: #404b52;
+        }
+        i:hover{
+            color: #dc6226 !important;
+        }
+    }
+}
+
+.navbar-nav{
+    .fa{
+        font-size: 1.5rem;
+        &:hover{
+            color: #dc6226 !important;
+        }
+    }
 }
 
