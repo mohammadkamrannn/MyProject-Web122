@@ -1,0 +1,43 @@
+.btn{
+    border: 1px solid #404b52;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 1.2rem;
+    &:hover{
+        background-color: transparent;
+    }
+}
+.btn-focus{
+    color: #404b52;
+    &:hover{
+        color: #dc6226;
+        border-color: #dc6226;
+    }
+}
+
+.btn-solution-learning{
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+}
+
+.btn-solution:hover{
+    color: #404b52;
+    border-color: #404b52;
+}
+
+.btn-learning:hover{
+    color: #949494;
+    border-color: #949494;
+}
+
+.btn-contact{
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+    &:hover{
+        color: #dc6226;
+        border-color: #dc6226;
+    }
+}

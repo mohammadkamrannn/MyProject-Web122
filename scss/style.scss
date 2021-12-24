@@ -1,4 +1,5 @@
-/* @font-face {
+
+@font-face {
     font-family: BYekan;
     src: url(../assets/fonts/Yekan.ttf);
 }
@@ -6,6 +7,17 @@ body{
     direction: rtl;
     font-family: 'BYekan';
 }
+
+input.bg-transparent-haber,
+textarea.bg-transparent-haber{
+    background-color: rgba(0, 0, 0, .4);
+}
+
+a:hover{
+    color: #dc6226 !important;
+}
+
+@import "./components/button";
 
 .haber-header{
     background-image: url(../assets/images/mt-0239-home-pattern-light-gray.jpg);
@@ -80,7 +92,3 @@ a, a:hover{
     background: url(../assets/images/mt-0239-home-parallax1.jpg) no-repeat center/ cover fixed;
 }
 
-input.bg-transparent-haber,
-textarea.bg-transparent-haber{
-    background-color: rgba(0, 0, 0, .4);
-} */
