@@ -157,3 +157,7 @@ a, a:hover {
 .navbar-nav .fa:hover {
   color: #dc6226 !important;
 }
+
+.addres {
+  background: url(../assets/images/mt-0239-home-pattern-gray.jpg);
+}
