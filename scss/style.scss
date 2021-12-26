@@ -19,9 +19,9 @@ textarea.bg-transparent-haber{
     background-color: rgba(0, 0, 0, .4);
 }
 
-a:hover{
-    color: #dc6226 !important;
-}
+// a:hover{
+//     color: #dc6226 !important;
+// }
 
 @import "./components/button";
 
@@ -72,6 +72,22 @@ a, a:hover{
     text-decoration: none;
 }
 
+.navbar-nav{
+    a{
+        color: #fff !important;
+        &:hover{
+            color: #dc6226 !important;
+        }
+    }
+}
+
+.dropdown-menu{
+    text-align: right;
+    a{
+        color: #404b52 !important;
+    }
+}
+
 .owl-carousel .owl-dots{
     display: none;
 }
@@ -120,5 +136,60 @@ a, a:hover{
 }
 
 .addres{
+    background: url(../assets/images/mt-0239-home-pattern-light-gray.jpg);
+}
+
+.map{
     background: url(../assets/images/mt-0239-home-pattern-gray.jpg);
+}
+
+
+.social-header{
+    i{
+        color: #949494;
+        &:hover{
+            color: #dc6226;
+        }
+    }
+}
+.social-footer{
+    i{
+        color: #dc6226;
+        &:hover{
+            color: #949494;
+        }
+    }
+}
+.solution,.learning{
+    li{
+        margin-bottom: 1rem;
+        position: relative;
+        list-style-type: none;
+        &::after{
+            content: "\f013";
+            position: absolute;
+            font-family: FontAwesome;
+            right: 0;
+            top: 0;
+            margin-right: -2rem;
+            color: #cfcdcd;
+        }
+        a:hover{
+            color: #404b52;
+        }
+    }
+}
+
+.learning{
+    background: url(../assets/images/mt-0239-home-pattern-gray.jpg);
+    background-color: #404b52;
+    li{
+        a:hover{
+            color: #dc6226;
+        }
+    }
+}
+
+.solution{
+    background: url(../assets/images/mt-0239-home-pattern-orange.jpg);
 }
