@@ -3,7 +3,7 @@ $(document).ready(function(){
         rtl:true,
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         responsive:{
             0:{
                 items:1
@@ -16,15 +16,5 @@ $(document).ready(function(){
             }
         }
     })
-
-
-
-
-
-    // $('.sidebar ul.navbar-nav a').click(function(){
-    //     $('.sidebar ul.navbar-nav a').removeClass('current');
-    //     $(this).addClass('current');
-    //     event.preventDefault();
-    // });
 
 });
